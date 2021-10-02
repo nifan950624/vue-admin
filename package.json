@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "preview": "node build/index.js --preview",
+    "preview": "node preview/index.js",
     "svgo": "svgo -f src/icons/svg --config=src/icons/svgo.yml",
     "lint": "eslint --ext src/**/*.{js,vue}",
     "stylelint": "stylelint --fix src/**/*.{scss,css,vue}"
@@ -31,7 +31,7 @@
     "autoprefixer": "9.5.1",
     "babel-eslint": "10.1.0",
     "babel-plugin-dynamic-import-node": "2.3.3",
-    "chalk": "2.4.2",
+    "chalk": "4.1.2",
     "connect": "3.6.6",
     "eslint": "6.7.2",
     "eslint-plugin-vue": "6.2.2",

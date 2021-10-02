@@ -1,4 +1,4 @@
-build/*.js
+preview/*.js
 src/assets
 public
 dist
