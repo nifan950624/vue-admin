@@ -1,6 +1,6 @@
 <template>
   <div class="app-container">
-    <avue-crud v-model="form" :data="list" :option="option">
+    <avue-crud v-model="form" :table-loading="listLoading" :data="list" :option="option">
       <template #display_time="{row}">
         <i class="el-icon-time" />
         <span>{{ $day(row.display_time).format(' YYYY-MM-DD HH:mm:ss') }}</span>
